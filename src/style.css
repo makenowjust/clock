@@ -54,7 +54,9 @@ body {
   --clock-small-hand-rotate: 0deg;
 }
 
-.center, .big-hand, .small-hand {
+.center,
+.big-hand,
+.small-hand {
   position: absolute;
   top: 50%;
   left: 50%;

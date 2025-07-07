@@ -1,9 +1,10 @@
 // This file is the main entry point for the clock application.
 
-import { create, setNextRotate, MODES, type ClockComponent } from "./clock";
+import { type ClockComponent, create, MODES, setNextRotate } from "./clock";
 
 import "./style.css";
 
+// biome-ignore lint/style/noNonNullAssertion: We ensure the element exists. See `index.html`.
 const app = document.querySelector<HTMLDivElement>("#app")!;
 
 const container = document.createElement("container");
@@ -39,4 +40,4 @@ const updateClocks = () => {
 };
 
 setTimeout(updateClocks, 0);
-setInterval(updateClocks, 1000*30);
+setInterval(updateClocks, 1000 * 30);
