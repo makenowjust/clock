@@ -31,7 +31,7 @@ body {
   margin: 0;
   display: grid;
   place-items: center;
-  min-height: 100svh;
+  min-height: 100dvh;
 }
 
 .container {
@@ -49,13 +49,13 @@ body {
 .clock {
   display: block;
   position: relative;
-  width: 6.2vw;
-  height: 6.2vw;
+  width: 6.1dvw;
+  height: 6.1dvw;
   max-width: 100px;
   max-height: 100px;
   border-radius: 50%;
   box-shadow: var(--clock-shadow-clock);
-  margin: min(0.4vw, 6.5px);
+  margin: min(0.25dvw, 5px);
 
   --clock-big-hand-rotate: 0deg;
   --clock-small-hand-rotate: 0deg;
