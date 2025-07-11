@@ -7,7 +7,7 @@ import "./style.css";
 // biome-ignore lint/style/noNonNullAssertion: We ensure the element exists. See `index.html`.
 const app = document.querySelector<HTMLDivElement>("#app")!;
 
-const container = document.createElement("container");
+const container = document.createElement("div");
 container.className = "container";
 
 const clocks: ClockComponent[] = [];
