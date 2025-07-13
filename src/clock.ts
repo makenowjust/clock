@@ -1,4 +1,4 @@
-// /** `DIGIT_IDS` is a constant array to obtain the digit ID based on the clock's position in a grid. */
+/** `DIGIT_IDS` is a constant array to obtain the digit ID based on the clock's position in a grid. */
 const DIGIT_IDS = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   [0, 1, 1, 1, 2, 2, 2, 0, 3, 3, 3, 4, 4, 4, 0],
