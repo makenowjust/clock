@@ -11,8 +11,8 @@
     "lint": "biome check"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.0.6",
-    "typescript": "5.8.3",
-    "vite": "7.0.0"
+    "@biomejs/biome": "2.1.4",
+    "typescript": "5.9.2",
+    "vite": "7.1.1"
   }
 }
